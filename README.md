@@ -21,21 +21,6 @@ A comprehensive image processing toolkit for analyzing noise effects and applyin
 - Visual comparison of filtering results
 - Quantitative analysis using PSNR (Peak Signal-to-Noise Ratio)
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/NoisyVision.git
-cd NoisyVision
-```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 
 The main functionality is provided as a Jupyter Notebook:
