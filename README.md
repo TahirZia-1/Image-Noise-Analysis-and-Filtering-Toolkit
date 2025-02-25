@@ -56,20 +56,6 @@ psnr_value = calculate_psnr(img_gray, filtered_image)
 print(f"PSNR: {psnr_value:.2f} dB")
 ```
 
-## Project Structure
-
-```
-NoisyVision/
-├── image_processing.ipynb     # Main Jupyter notebook with all functionality
-├── image_processing.py        # Python script version
-├── requirements.txt           # Required dependencies
-├── sample_images/             # Sample images for testing
-│   ├── lena.png
-│   └── cameraman.tif
-├── results/                   # Folder for saving results
-└── README.md                  # This README file
-```
-
 ## Results
 
 ### Noise Models
