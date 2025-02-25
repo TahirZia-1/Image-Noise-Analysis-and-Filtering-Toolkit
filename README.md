@@ -76,7 +76,7 @@ Different filters perform optimally for different noise types:
 
 ### Sample Outputs
 
-![Sample Filtering Results](sample_images/filter_comparison.png)
+![Sample Filtering Results](sample_images/output.png)
 
 ## Key Findings
 
@@ -84,23 +84,3 @@ Different filters perform optimally for different noise types:
 2. **Kernel Size Tradeoff**: Larger kernels remove more noise but also blur image details
 3. **Adaptive Approaches**: Adaptive filters generally provide the best balance between noise reduction and detail preservation
 4. **Quantitative Analysis**: PSNR metrics align with visual quality assessments
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- OpenCV community for the image processing tools
-- NumPy and SciPy for the scientific computing libraries
-- Matplotlib for the visualization capabilities
